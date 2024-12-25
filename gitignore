@@ -1,11 +1,22 @@
 # Node.js
 frontend/node_modules/
+frontend/.env
 
 # Python
 backend/venv/
+backend/__pycache__/
+backend/*.py[cod]
+backend/db.sqlite3
+backend/.env
 
-# General
+# Logs
 *.log
-*.pyc
-__pycache__/
+
+# OS Files
 .DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.iml
